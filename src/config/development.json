@@ -1,0 +1,16 @@
+{
+    "env": "development",
+    "port": 3000,
+    "db": {
+        "host": "localhost:27017",
+        "name": "exercise",
+        "auth": {
+            "user": "",
+            "password": ""
+        }
+    },
+    "oauthSalt": "shhhhh",
+    "oauthTTL": 3630,
+    "saltRounds": 5,
+    "basePath": ""
+}

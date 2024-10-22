@@ -1,11 +1,12 @@
 import express from 'express';
 import { json, urlencoded } from 'body-parser';
 import { config } from './config';
-import  helmet from 'helmet';
+import helmet from 'helmet';
 import cors from 'cors';
 import morgan from 'morgan';
 import { logger, morganOption } from './winston';
-import  xmlparser from 'express-xml-bodyparser';
+import xmlparser from 'express-xml-bodyparser';
+import { productController } from './controllers/productController';
 
 
 const Helmet = helmet as any;
@@ -31,8 +32,7 @@ app.use(morgan(format, morganOption));
 
 
 // Definition controllers
-/* adressController.init(app);
-usersController.init(app); */
+productController.init(app);
 
 
 const main = express().use(config.get('basePath') || '', app);

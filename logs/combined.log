@@ -1,0 +1,122 @@
+[22/Oct/2024:04:39:40 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:04:40:41 +0100] [info] ::1 - "GET / HTTP/1.1" 404 4.382 ms - 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0"
+
+[22/Oct/2024:05:17:22 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:05:17:45 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:05:18:01 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:05:18:20 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:05:18:39 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:05:18:52 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:05:18:57 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:05:19:07 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:05:19:17 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:05:19:28 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:05:20:17 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:05:20:21 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:05:20:26 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:05:21:06 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:05:21:36 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:05:21:40 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:05:22:00 +0100] [info] ::1 - "GET / HTTP/1.1" 404 7.058 ms - 139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0"
+
+[22/Oct/2024:05:22:36 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:05:23:56 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:05:23:59 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:05:24:06 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:05:24:11 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:05:24:25 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:05:36:07 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:06:13:01 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:11:19:38 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:11:20:28 +0100] [info] ::1 - "GET /product HTTP/1.1" 404 5.374 ms - 146 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0"
+
+[22/Oct/2024:11:30:11 +0100] [error] failed to connect to mongodb 
+getaddrinfo ENOTFOUND mongodb
+MongoServerSelectionError: getaddrinfo ENOTFOUND mongodb
+    at Topology.selectServer (C:\Users\dell\Desktop\backend\node_modules\mongodb\src\sdam\topology.ts:610:30)
+    at async Topology._connect (C:\Users\dell\Desktop\backend\node_modules\mongodb\src\sdam\topology.ts:463:22)
+    at async Topology.connect (C:\Users\dell\Desktop\backend\node_modules\mongodb\src\sdam\topology.ts:410:7)
+    at async topologyConnect (C:\Users\dell\Desktop\backend\node_modules\mongodb\src\mongo_client.ts:596:9)
+    at async MongoClient._connect (C:\Users\dell\Desktop\backend\node_modules\mongodb\src\mongo_client.ts:608:7)
+    at async MongoClient.connect (C:\Users\dell\Desktop\backend\node_modules\mongodb\src\mongo_client.ts:520:7)
+
+[22/Oct/2024:11:30:11 +0100] [error] failed to get adresses 
+Cannot read properties of undefined (reading 'collection')
+TypeError: Cannot read properties of undefined (reading 'collection')
+    at C:\Users\dell\Desktop\backend\src\collections\productCollection.ts:26:47
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\dell\Desktop\backend\src\collections\productCollection.ts:5:58)
+
+[22/Oct/2024:11:30:11 +0100] [info] ::1 - "POST /product HTTP/1.1" 200 30072.727 ms - 2 "-" "PostmanRuntime/7.37.0"
+
+[22/Oct/2024:11:34:35 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:11:35:32 +0100] [error] failed to connect to mongodb 
+getaddrinfo ENOTFOUND mongodb
+MongoServerSelectionError: getaddrinfo ENOTFOUND mongodb
+    at Topology.selectServer (C:\Users\dell\Desktop\backend\node_modules\mongodb\src\sdam\topology.ts:610:30)
+    at async Topology._connect (C:\Users\dell\Desktop\backend\node_modules\mongodb\src\sdam\topology.ts:463:22)
+    at async Topology.connect (C:\Users\dell\Desktop\backend\node_modules\mongodb\src\sdam\topology.ts:410:7)
+    at async topologyConnect (C:\Users\dell\Desktop\backend\node_modules\mongodb\src\mongo_client.ts:596:9)
+    at async MongoClient._connect (C:\Users\dell\Desktop\backend\node_modules\mongodb\src\mongo_client.ts:608:7)
+    at async MongoClient.connect (C:\Users\dell\Desktop\backend\node_modules\mongodb\src\mongo_client.ts:520:7)
+
+[22/Oct/2024:11:35:32 +0100] [error] failed to get adresses 
+Cannot read properties of undefined (reading 'collection')
+TypeError: Cannot read properties of undefined (reading 'collection')
+    at C:\Users\dell\Desktop\backend\src\collections\productCollection.ts:26:41
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\dell\Desktop\backend\src\collections\productCollection.ts:5:58)
+
+[22/Oct/2024:11:35:32 +0100] [info] ::1 - "POST /product HTTP/1.1" 200 30066.304 ms - 2 "-" "PostmanRuntime/7.37.0"
+
+[22/Oct/2024:11:36:23 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:11:37:16 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:11:37:28 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:11:37:52 +0100] [info] ::1 - "POST /product HTTP/1.1" 200 63.138 ms - 26 "-" "PostmanRuntime/7.37.0"
+
+[22/Oct/2024:11:38:53 +0100] [info] server started. Listening on port 3000 in "development" mode
+
+[22/Oct/2024:11:39:09 +0100] [info] ::1 - "GET /product HTTP/1.1" 404 4.395 ms - 146 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0"
+
+[22/Oct/2024:11:39:33 +0100] [info] ::1 - "GET /product/6717808050211935e1e8dcda HTTP/1.1" 404 2.002 ms - 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0"
+
+[22/Oct/2024:11:40:32 +0100] [info] ::1 - "GET /product HTTP/1.1" 404 0.350 ms - 146 "-" "PostmanRuntime/7.37.0"
+
+[22/Oct/2024:11:40:52 +0100] [info] ::1 - "GET /product/6717808050211935e1e8dcda HTTP/1.1" 404 0.458 ms - 171 "-" "PostmanRuntime/7.37.0"
+
+[22/Oct/2024:11:46:26 +0100] [info] ::1 - "GET /products/6717808050211935e1e8dcda HTTP/1.1" 200 59.782 ms - 295 "-" "PostmanRuntime/7.37.0"
+
+[22/Oct/2024:11:46:35 +0100] [info] ::1 - "GET /products/6717808050211935e1e8dcda HTTP/1.1" 200 4.715 ms - 295 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0"
+
+[22/Oct/2024:12:00:47 +0100] [info] server started. Listening on port 3000 in "development" mode
+
